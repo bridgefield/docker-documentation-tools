@@ -7,7 +7,7 @@ Tools used for generating documentation based on [plantuml](https://plantuml.com
 ## plantuml
 
 * Generate svg from plantuml files in a given directory and output to  specific target directory
-  ```docker run -v $PWD:/sources -u $(id -u ${USER}):$(id -g ${USER}) --rm plantuml /sources/docs/diagrams/* -o /sources/docs/images/generated -tsvg```
+  ```docker run -v $PWD:/sources -u $(id -u ${USER}):$(id -g ${USER}) --rm bridgefield/plantuml /sources/docs/diagrams/* -o /sources/docs/images/generated -tsvg```
 
 ### mkdocs
 
