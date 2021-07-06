@@ -13,5 +13,5 @@ Tools used for generating documentation based on [plantuml](https://plantuml.com
 
 * Create new mkdocs project
   ```docker run -v $PWD:/sources -u $(id -u ${USER}):$(id -g ${USER})  --rm bridgefield/mkdocs new /sources```
-* Build html documentation form mkdcos project
+* Build html documentation from mkdcos project
   ```docker run -v $PWD:/sources -u $(id -u ${USER}):$(id -g ${USER})  --rm bridgefield/mkdocs build -f /sources/mkdocs.yml -t readthedocs```
