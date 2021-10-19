@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec java $PLANTUML_JAVAOPTS -Djava.net.useSystemProxies=true -Djava.awt.headless=true -jar /usr/share/plantuml/plantuml.jar "$@"
